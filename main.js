@@ -23,13 +23,26 @@
     const nameLength = nameValue.length;
     const emailLength = emailValue.length;
     const messageLength = messageValue.length;
-    
+
     // "window" é um objeto global que representa a janela (ou aba) do
     // navegador que está executando o código do seu site. O método
     // "alert" simplesmente mostra um aviso para o usuário contendo a
     // mensagem provida.
-    window.alert(`Botão enviar clicado! Conteúdo do campo nome: ${nameValue} (${nameLength} caracteres)`);
-
+    if (nameLength != 0 && emailLength != 0 && messageLength !=0) {
+      window.alert(`Mensagem Enviada com Sucesso!\n Nome: ${nameValue}\n Email: ${emailValue}\n Mensagem: ${messageValue}`);
+    } else {
+      var unfilleds = '';
+      if (nameLength == 0){
+        unfilleds += '\n Nome';
+      } 
+      if (emailLength == 0){
+        unfilleds += '\n Email'
+      }
+      if (messageLength == 0) {
+        unfilleds += '\n Mensagem'
+      }
+      window.alert(`Você não preencheu os seguintes campos: ${unfilleds} `)
+    }
     // Altere e complete essa função para validar os campos do formulário
     // de acordo com as especificações do teste. Boa sorte!
   });
