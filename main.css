@@ -26,7 +26,7 @@ header {
     display: flex;
     background-color: #ACD0B6;
     top: 0;
-    height: 65pt;
+    height: 60pt;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -39,7 +39,7 @@ form {
 
 #container {
     margin: 0 auto;
-    margin-top: 10%;
+    margin-top: 200px;
     justify-content: center;
     width: 320pt;
 }
