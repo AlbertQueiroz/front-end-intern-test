@@ -6,7 +6,7 @@
 
 
 h1 {
-    font-weight: 100;
+    font-weight: normal;
     line-height: 80%;
     align-self: center;
     font-family: 'Cookie';
@@ -55,14 +55,15 @@ form {
     color:white;
     padding: 3%;
     font-family: 'Open Sans';
-    font-weight: 600;
-    font-size: 16pt;
-    box-shadow: 0pt 6pt #4a8978;
+    font-weight: bold;
+    font-size: 22px;
+    box-shadow: 0px 8px #4a8978;
     background-color: #71a397;
 }
 
 ::placeholder {
     font-family: 'Open Sans';
-    font-size:13pt;
+    font-weight: inherit;
+    font-size:18px;
     color: #A2A7AD;
 }
