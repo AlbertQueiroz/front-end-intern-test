@@ -8,16 +8,22 @@
     <title>GreenCity</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <header>
+        <img id=logo src="./assets/06-LOGO.png">
+    </header>
 
-    <!-- Recomendamos que você não altere os IDs dos elementos do formulário -->
-    <form id="contact" action="#">
-        <input type="text" id="name" placeholder="Nome">
-        <input type="text" id="email" placeholder="Endereço de email">
-        <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensagem"></textarea>
-        <input type="submit" value="Enviar">
-    </form>
+    <div id="container">
+        <h1>Vem tomar um café com a gente</h1>
 
+        <!-- Recomendamos que você não altere os IDs dos elementos do formulário -->
+        <form id="contact" action="#">
+            <input type="text" class="formContent" id="name" placeholder="Nome">
+            <input type="text" class="formContent" id="email" placeholder="Endereço de email">
+            <textarea name="message" class="formContent" id="message" cols="30" rows="10" placeholder="Mensagem"></textarea>
+            <input type="submit" class="formContent" id="send" value="ENVIAR">
+        </form>
+    </div>
+    
     <script src="main.js"></script>
 </body>
 </html>
