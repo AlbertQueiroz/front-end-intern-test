@@ -16,7 +16,7 @@ h1 {
 }
 
 body {
-    background-image: url('./assets/04-BG.png');
+    background-image: url('../assets/04-BG.png');
     margin: 0;
     padding: 0;
 }
