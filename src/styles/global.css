@@ -1,10 +1,3 @@
-/* font-family: 'Cookie', cursive; */
-@import url('https://fonts.googleapis.com/css?family=Cookie&display=swap');
-
-/* font-family: 'Open Sans', sans-serif; */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
-
-
 h1 {
     font-weight: normal;
     line-height: 80%;
@@ -16,7 +9,7 @@ h1 {
 }
 
 body {
-    background-image: url('./assets/04-BG.png');
+    background-image: url('../assets/background.png');
     margin: 0;
     padding: 0;
 }
